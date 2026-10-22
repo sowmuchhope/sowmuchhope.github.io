@@ -368,8 +368,26 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
 
+/* ==================
+    SUPPORTERS PAGE STYLES
+   ================== */
 
 
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;      /* Vertically centers logos of different aspect ratios */
+  justify-content: center; /* Centers logos horizontally */
+  gap: 2rem;               /* Creates consistent spacing between logos */
+}
+
+.logo-container img {
+  max-width: 225px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}     /* Ensures logos fit neatly without distortion */
 
 
 /* Master Layout: Shared Footer */
